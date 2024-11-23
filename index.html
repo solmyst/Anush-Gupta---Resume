@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anush Gupta - Software Engineering Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+            background: white;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #1a73e8; /* Google Blue */
+        }
+
+        .contact-info {
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+
+        .contact-info a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        .personal-statement {
+            text-align: center;
+            margin: 20px auto;
+            max-width: 600px;
+            font-style: italic;
+            color: #5f6368;
+            border-top: 1px solid #e8eaed;
+            border-bottom: 1px solid #e8eaed;
+            padding: 15px 0;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            font-size: 18px;
+            text-transform: uppercase;
+            border-bottom: 2px solid #1a73e8;
+            margin-bottom: 12px;
+            padding-bottom: 5px;
+            color: #202124; /* Google Gray */
+        }
+
+        .entry {
+            margin-bottom: 15px;
+        }
+
+        .entry-title {
+            font-weight: bold;
+            font-size: 16px;
+            color: #202124;
+        }
+
+        .entry-subtitle {
+            font-style: italic;
+            font-size: 14px;
+            color: #5f6368; /* Google Dark Gray */
+        }
+
+        .entry-date {
+            float: right;
+            font-size: 14px;
+            color: #5f6368;
+        }
+
+        .entry-details {
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-left: 20px;
+        }
+
+        .skills-category {
+            margin-bottom: 10px;
+        }
+
+        .skills-category-title {
+            font-weight: bold;
+            color: #202124;
+        }
+
+        .bullet-point {
+            position: relative;
+            padding-left: 15px;
+        }
+
+        .bullet-point::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #1a73e8;
+        }
+        
+        .soft-skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-left: 20px;
+        }
+
+        .soft-skill-tag {
+            background-color: #e8f0fe;
+            color: #1a73e8;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 13px;
+        }
+
+        @media print {
+            body {
+                padding: 0.5in;
+            }
+            
+            @page {
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Anush Gupta</h1>
+        <div class="contact-info">
+            <div class="contact-info">
+                Email: anushgupta105@gmail.com | Phone: (91+) 9982920838 | Location: Jaipur, India<br>
+                LinkedIn: linkedin.com/in/anush-gupta105 | GitHub: github.com/solmyst | Portfolio: anushgupta105.github.io
+            </div> 
+        </div>
+    </div>
+    <div class="personal-statement">
+        Aspiring software engineer with a strong foundation in data structures and algorithms, passionate about creating efficient solutions to real-world problems. Demonstrated ability to collaborate in diverse teams and eager to contribute to innovative projects through Google STEP internship.
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="entry">
+            <div class="entry-title">JECRC University</div>
+            <div class="entry-subtitle">Bachelor of Technology in Computer Science
+                <span class="entry-date">Expected Graduation: Month 2027</span>
+            </div>
+            <div class="entry-details">
+                <div class="bullet-point">CGPA: 9.0/10.0 (Top 5% of the class)</div>
+                <div class="bullet-point">Relevant Coursework: Data Structures & Algorithms, Object-Oriented Programming, Operating Systems, Database Management Systems, Computer Networks</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="entry">
+            <div class="entry-title">Software Engineering Intern</div>
+            <div class="entry-subtitle">Park Plus
+                <span class="entry-date">Duration (June 2024 - July 2024)</span>
+            </div>
+            <div class="entry-details">
+                <div class="bullet-point">Led development of Phonebook product feature, resulting in increase in user engagement and improvement in contact discovery</div>
+                <div class="bullet-point">Collaborated with cross-functional teams to optimize API response time through implementation of efficient caching mechanisms</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Technical Projects</h2>
+        <div class="entry">
+            <div class="entry-title">Smart Task Management System</div>
+            <div class="entry-subtitle">Solo Project
+                <span class="entry-date">August 2024</span>
+            </div>
+            <div class="entry-details">
+                <div class="bullet-point">Developed a full-stack task management application using React and Node.js, implementing efficient data structures for task organization</div>
+                <div class="bullet-point">Integrated priority queue algorithm for task scheduling, improving task completion efficiency by 20%</div>
+                <div class="bullet-point">Technologies used: React.js, Node.js, MongoDB, RESTful APIs</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skills-category">
+                <div class="skills-category-title">Programming Languages</div>
+                <div class="entry-details">
+                    <div class="bullet-point">Advanced: C++, Java</div>
+                    <div class="bullet-point">Intermediate: Python, JavaScript, C</div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <div class="skills-category-title">Core Competencies</div>
+                <div class="entry-details">
+                    <div class="bullet-point">Data Structures & Algorithms</div>
+                    <div class="bullet-point">Object-Oriented Design</div>
+                    <div class="bullet-point">Problem Solving</div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <div class="skills-category-title">Tools & Technologies</div>
+                <div class="entry-details">
+                    <div class="bullet-point">Git, VS Code, Eclipse</div>
+                    <div class="bullet-point">REST APIs, SQL</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section">
+        <h2 class="section-title">Core Competencies & Soft Skills</h2>
+        <div class="entry-details">
+            <div class="bullet-point"><strong>Leadership & Initiative:</strong> Led university coding club of 100+ members, organizing workshops and mentoring junior students</div>
+            <div class="bullet-point"><strong>Team Collaboration:</strong> Successfully coordinated with cross-functional teams at Park Plus, improving project delivery time by 25%</div>
+            <div class="bullet-point"><strong>Communication:</strong> Delivered technical presentations to diverse audiences, including senior management and new team members</div>
+            <div class="bullet-point"><strong>Problem-Solving:</strong> Demonstrated through competitive programming achievements and innovative project solutions</div>
+        </div>
+        <div class="soft-skills">
+            <span class="soft-skill-tag">Team Leadership</span>
+            <span class="soft-skill-tag">Cross-cultural Communication</span>
+            <span class="soft-skill-tag">Mentoring</span>
+            <span class="soft-skill-tag">Adaptability</span>
+            <span class="soft-skill-tag">Time Management</span>
+            <span class="soft-skill-tag">Critical Thinking</span>
+            <span class="soft-skill-tag">Conflict Resolution</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Achievements & Activities</h2>
+        <div class="entry-details">
+            <div class="bullet-point">Secured Runner-up position in Inov8 among 200+ teams, developing an innovative solution for the health sector</div>
+            <div class="bullet-point">Active competitive programmer with 200+ problems solved on LeetCode , CodeChef , and Codeforces </div>
+
+        </div>
+    </div>
+</body>
+</html>
